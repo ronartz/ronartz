@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Shreejit Mondal: aspiring Python, AI and cloud engineer">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090A0D"/><stop offset=".5" stop-color="#111114"/><stop offset="1" stop-color="#1B0D0A"/></linearGradient>
+ <linearGradient id="flame" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF3A24"/><stop offset=".53" stop-color="#FF8A45"/><stop offset="1" stop-color="#FFD5A1"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#FF652C" stop-opacity=".45"/><stop offset=".5" stop-color="#D42F14" stop-opacity=".12"/><stop offset="1" stop-color="#FF4400" stop-opacity="0"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+ <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#BA462B" stroke-opacity=".10" stroke-width=".7"/></pattern>
+ <clipPath id="bounds"><rect width="1200" height="320" rx="17"/></clipPath>
+</defs>
+<style>
+ @keyframes drift {from{transform:translateX(-26px) translateY(8px)}to{transform:translateX(25px) translateY(-8px)}}
+ @keyframes orbit{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+ @keyframes breath{0%,100%{opacity:.32}50%{opacity:.78}}
+ @keyframes scan{0%{transform:translateX(-1000px)}100%{transform:translateX(1400px)}}
+ @keyframes rise{0%{opacity:0;transform:translateY(24px)}25%{opacity:.7}100%{opacity:0;transform:translateY(-45px)}}
+ .mist{animation:drift 7s ease-in-out infinite alternate}.ring{transform-origin:1010px 157px;animation:orbit 34s linear infinite}.ring2{transform-origin:1010px 157px;animation:orbit 48s linear infinite reverse}.pulse{animation:breath 3.5s ease-in-out infinite}.scan{animation:scan 9s linear infinite}.spark{animation:rise 5s ease-in-out infinite}.s2{animation-delay:-2s}.s3{animation-delay:-3.4s}
+ @media (prefers-reduced-motion:reduce){.mist,.ring,.ring2,.pulse,.scan,.spark{animation:none}}
+</style>
+<g clip-path="url(#bounds)">
+ <rect width="1200" height="320" fill="url(#bg)"/>
+ <rect width="1200" height="320" fill="url(#grid)"/>
+ <ellipse class="mist" cx="1010" cy="160" rx="260" ry="250" fill="url(#halo)"/>
+ <ellipse cx="75" cy="-45" rx="230" ry="115" fill="#D93615" opacity=".085" filter="url(#glow)"/>
+ <path d="M0 315H1200" stroke="#FF703A" stroke-opacity=".42" stroke-width="2"/>
+ <path class="scan" d="M0 0V320" stroke="#FF844F" stroke-width="2" stroke-opacity=".2"/>
+ <g fill="none" stroke="#FF814A">
+  <circle cx="1010" cy="157" r="97" opacity=".23" stroke-width="1.3"/>
+  <circle class="ring" cx="1010" cy="157" r="125" stroke-opacity=".55" stroke-dasharray="7 29 2 34" stroke-width="2"/>
+  <circle class="ring2" cx="1010" cy="157" r="153" stroke-opacity=".18" stroke-dasharray="2 18 15 30" stroke-width="1"/>
+  <circle cx="1010" cy="157" r="55" stroke-opacity=".37" stroke-width="1.5"/>
+  <path class="pulse" d="M960 157H1060M1010 107V207" stroke-opacity=".5"/>
+ </g>
+ <circle cx="1010" cy="157" r="8" fill="#FF7845"/>
+ <circle cx="1010" cy="157" r="21" fill="#FF6528" opacity=".2" filter="url(#glow)"/>
+ <circle class="spark" cx="895" cy="220" r="2.4" fill="#FFB077"/><circle class="spark s2" cx="1108" cy="216" r="2" fill="#FF6D3A"/><circle class="spark s3" cx="948" cy="84" r="1.9" fill="#FFAC7B"/>
+ <rect x="64" y="55" width="7" height="17" rx="3.5" fill="#FF6D3A"/>
+ <text x="88" y="69" font-family="'Segoe UI',Arial,sans-serif" font-size="16" letter-spacing="4.5" fill="#FFB890">DEVELOPER PROFILE</text>
+ <text x="64" y="149" font-family="'Segoe UI',Arial,sans-serif" font-size="60" font-weight="800" fill="#FFF7F1" letter-spacing="1">SHREEJIT</text>
+ <text x="64" y="211" font-family="'Segoe UI',Arial,sans-serif" font-size="60" font-weight="800" fill="url(#flame)" letter-spacing="1">MONDAL</text>
+ <path d="M64 233H420" stroke="url(#flame)" stroke-width="2" opacity=".78"/>
+ <text x="64" y="269" font-family="'Segoe UI',Arial,sans-serif" font-size="21" fill="#E7C8B8" letter-spacing=".8">PYTHON  ·  AI / RAG  ·  CLOUD</text>
+ <text x="1138" y="293" text-anchor="end" font-family="monospace" font-size="13" fill="#E9A789" opacity=".75">GITHUB / RONARTZ</text>
+</g>
+</svg>
