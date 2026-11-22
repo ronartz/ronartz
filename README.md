@@ -11,6 +11,7 @@
 <br/>
 
 <a href="https://github.com/ronartz"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/shreejitmondal"><img src="https://img.shields.io/badge/LinkedIn-Connect-FF6B35?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:s.mondal.grc@gmail.com"><img src="https://img.shields.io/badge/Email-FF5722?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 <br/><br/>
@@ -245,6 +246,7 @@ I enjoy learning, discussing ideas and building useful software. I'm especially 
 <br/>
 
 <a href="https://github.com/ronartz"><img src="https://img.shields.io/badge/GitHub-Explore_My_Work-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/shreejitmondal"><img src="https://img.shields.io/badge/LinkedIn-Let%27s_Connect-FF6B35?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:s.mondal.grc@gmail.com"><img src="https://img.shields.io/badge/Email-Get_In_Touch-FF5722?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 <br/><br/>
