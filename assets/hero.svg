@@ -1,44 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Shreejit Mondal: aspiring Python, AI and cloud engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="255" viewBox="0 0 1200 255" role="img" aria-label="Shreejit Mondal - animated red and orange developer profile banner">
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090A0D"/><stop offset=".5" stop-color="#111114"/><stop offset="1" stop-color="#1B0D0A"/></linearGradient>
- <linearGradient id="flame" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF3A24"/><stop offset=".53" stop-color="#FF8A45"/><stop offset="1" stop-color="#FFD5A1"/></linearGradient>
- <radialGradient id="halo"><stop stop-color="#FF652C" stop-opacity=".45"/><stop offset=".5" stop-color="#D42F14" stop-opacity=".12"/><stop offset="1" stop-color="#FF4400" stop-opacity="0"/></radialGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
- <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#BA462B" stroke-opacity=".10" stroke-width=".7"/></pattern>
- <clipPath id="bounds"><rect width="1200" height="320" rx="17"/></clipPath>
+<linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B0D11"/><stop offset=".53" stop-color="#111013"/><stop offset="1" stop-color="#220E09"/></linearGradient>
+<linearGradient id="hot" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF482D"/><stop offset=".5" stop-color="#FF8A48"/><stop offset="1" stop-color="#FFCC93"/></linearGradient>
+<linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF512D" stop-opacity="0"/><stop offset=".5" stop-color="#FF713B" stop-opacity=".55"/><stop offset="1" stop-color="#FF512D" stop-opacity="0"/></linearGradient>
+<radialGradient id="flare"><stop stop-color="#EF592B" stop-opacity=".45"/><stop offset=".5" stop-color="#AD250B" stop-opacity=".16"/><stop offset="1" stop-color="#F24A21" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="1200" height="255" rx="15"/></clipPath>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FF7845" opacity=".075" stroke-width=".7"/></pattern>
 </defs>
 <style>
- @keyframes drift {from{transform:translateX(-26px) translateY(8px)}to{transform:translateX(25px) translateY(-8px)}}
- @keyframes orbit{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
- @keyframes breath{0%,100%{opacity:.32}50%{opacity:.78}}
- @keyframes scan{0%{transform:translateX(-1000px)}100%{transform:translateX(1400px)}}
- @keyframes rise{0%{opacity:0;transform:translateY(24px)}25%{opacity:.7}100%{opacity:0;transform:translateY(-45px)}}
- .mist{animation:drift 7s ease-in-out infinite alternate}.ring{transform-origin:1010px 157px;animation:orbit 34s linear infinite}.ring2{transform-origin:1010px 157px;animation:orbit 48s linear infinite reverse}.pulse{animation:breath 3.5s ease-in-out infinite}.scan{animation:scan 9s linear infinite}.spark{animation:rise 5s ease-in-out infinite}.s2{animation-delay:-2s}.s3{animation-delay:-3.4s}
- @media (prefers-reduced-motion:reduce){.mist,.ring,.ring2,.pulse,.scan,.spark{animation:none}}
+@keyframes sweep{0%{transform:translateX(-460px)}100%{transform:translateX(1620px)}}
+@keyframes blink{0%,44%{opacity:1}48%,94%{opacity:0}100%{opacity:1}}
+@keyframes float{0%,100%{transform:translate(0,0)}50%{transform:translate(-28px,-6px)}}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+@keyframes dash{0%{stroke-dashoffset:0}100%{stroke-dashoffset:-112}}
+@keyframes pulse2{0%,100%{transform:scale(.8);opacity:.35}50%{transform:scale(1.12);opacity:.85}}
+.laser{animation:sweep 6.5s linear infinite}.aura{animation:float 6s ease-in-out infinite}.cursor{animation:blink 1s steps(1) infinite}.p{animation:pulse 2.2s ease-in-out infinite}.dashes{animation:dash 3s linear infinite}.orb{animation:pulse2 3s ease-in-out infinite;transform-origin:1120px 210px}
+@media(prefers-reduced-motion:reduce){.laser,.aura,.cursor,.p,.dashes,.orb{animation:none}}
 </style>
-<g clip-path="url(#bounds)">
- <rect width="1200" height="320" fill="url(#bg)"/>
- <rect width="1200" height="320" fill="url(#grid)"/>
- <ellipse class="mist" cx="1010" cy="160" rx="260" ry="250" fill="url(#halo)"/>
- <ellipse cx="75" cy="-45" rx="230" ry="115" fill="#D93615" opacity=".085" filter="url(#glow)"/>
- <path d="M0 315H1200" stroke="#FF703A" stroke-opacity=".42" stroke-width="2"/>
- <path class="scan" d="M0 0V320" stroke="#FF844F" stroke-width="2" stroke-opacity=".2"/>
- <g fill="none" stroke="#FF814A">
-  <circle cx="1010" cy="157" r="97" opacity=".23" stroke-width="1.3"/>
-  <circle class="ring" cx="1010" cy="157" r="125" stroke-opacity=".55" stroke-dasharray="7 29 2 34" stroke-width="2"/>
-  <circle class="ring2" cx="1010" cy="157" r="153" stroke-opacity=".18" stroke-dasharray="2 18 15 30" stroke-width="1"/>
-  <circle cx="1010" cy="157" r="55" stroke-opacity=".37" stroke-width="1.5"/>
-  <path class="pulse" d="M960 157H1060M1010 107V207" stroke-opacity=".5"/>
- </g>
- <circle cx="1010" cy="157" r="8" fill="#FF7845"/>
- <circle cx="1010" cy="157" r="21" fill="#FF6528" opacity=".2" filter="url(#glow)"/>
- <circle class="spark" cx="895" cy="220" r="2.4" fill="#FFB077"/><circle class="spark s2" cx="1108" cy="216" r="2" fill="#FF6D3A"/><circle class="spark s3" cx="948" cy="84" r="1.9" fill="#FFAC7B"/>
- <rect x="64" y="55" width="7" height="17" rx="3.5" fill="#FF6D3A"/>
- <text x="88" y="69" font-family="'Segoe UI',Arial,sans-serif" font-size="16" letter-spacing="4.5" fill="#FFB890">DEVELOPER PROFILE</text>
- <text x="64" y="149" font-family="'Segoe UI',Arial,sans-serif" font-size="60" font-weight="800" fill="#FFF7F1" letter-spacing="1">SHREEJIT</text>
- <text x="64" y="211" font-family="'Segoe UI',Arial,sans-serif" font-size="60" font-weight="800" fill="url(#flame)" letter-spacing="1">MONDAL</text>
- <path d="M64 233H420" stroke="url(#flame)" stroke-width="2" opacity=".78"/>
- <text x="64" y="269" font-family="'Segoe UI',Arial,sans-serif" font-size="21" fill="#E7C8B8" letter-spacing=".8">PYTHON  ·  AI / RAG  ·  CLOUD</text>
- <text x="1138" y="293" text-anchor="end" font-family="monospace" font-size="13" fill="#E9A789" opacity=".75">GITHUB / RONARTZ</text>
-</g>
-</svg>
+<g clip-path="url(#clip)">
+<rect width="1200" height="255" fill="url(#base)"/>
+<rect width="1200" height="255" fill="url(#grid)"/>
+<ellipse class="aura" cx="1070" cy="105" rx="295" ry="196" fill="url(#flare)"/>
+<path class="laser" d="M0 -20H110V300H0Z" fill="url(#scan)" opacity=".28" transform="skewX(-25)"/>
+<path d="M0 253H1200" stroke="#FF632E" stroke-width="2"/>
+<rect x="38" y="31" width="6" height="14" rx="3" fill="#FF5C32"/>
+<text x="56" y="43" font-family="monospace" font-size="13" letter-spacing="3.8" fill="#FFA475">SOFTWARE · AI · CLOUD</text>
+<text x="39" y="117" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="71" letter-spacing="1.2" fill="#FFFFFF">SHREEJIT</text>
+<text x="39" y="191" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="71" letter-spacing="1.2" fill="url(#hot)">MONDAL</text>
+<path d="M40 206H636" stroke="url(#hot)" opacity=".8" stroke-width="2"/>
+<text x="42" y="236" font-family="monospace" font-size="15" fill="#FFB993">LEARN. BUILD. UNDERSTAND. REPEAT.</text>
+<rect x="747" y="39" width="399" height="174" rx="13" fill="#101014" fill-opacity=".94" stroke="#9A402B" stroke-opacity=".72" stroke-width="1.4"/>
+<rect x="747" y="39" width="399" height="35" rx="13" fill="#3B1D18" fill-opacity=".7"/>
+<rect x="747" y="63" width="399" height="11" fill="#3B1D18" fill-opacity=".7"/>
+<circle cx="768" cy="57" r="5" fill="#FF5035"/><circle cx="786" cy="57" r="5" fill="#FF9652"/><circle cx="804" cy="57" r="5" fill="#FFC376"/>
+<text x="827" y="62" font-family="monospace" font-size="12" fill="#FFB792">ronartz / status</text>
+<text x="769" y="104" font-family="monospace" font-size="15" fill="#FF996E">$ whoami</text>
+<text x="769" y="127" font-family="monospace" font-size="16" fill="#F3EDE9">shreejit.mondal</text>
+<text x="769" y="159" font-family="monospace" font-size="14" fill="#FF996E">$ current_focus</text>
+<text x="769" y="181" font-family="monospace" font-size="14" fill="#E9D9D1">Python + RAG + Cloud <tspan class="cursor" fill="#FF7841">▌</tspan></text>
+<path class="dashes" d="M1037 223H1161" stroke="#FF753D" stroke-width="2.5" stroke-dasharray="10 18"/>
+<circle class="orb" cx="1120" cy="210" r="27" fill="none" stroke="#FF753D" stroke-opacity=".6" stroke-width="1.4"/>
+<circle cx="1120" cy="210" r="4" fill="#FFB36F"/>
+<text x="745" y="239" font-family="monospace" font-size="13" fill="#B78A75">github.com/ronartz</text>
+</g></svg>
