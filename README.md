@@ -7,12 +7,12 @@
 <div align="center">
   <a href="#projects"><img src="./cards/build.svg" width="32.4%" alt="BUILD: SHINPO, Skill Track and Java projects" /></a>
   <a href="#about"><img src="./cards/ai.svg" width="32.4%" alt="EXPLORE: Python, AI, RAG and Cloud learning journey" /></a>
-  <a href="https://www.linkedin.com/in/shreejitmondal"><img src="./cards/japan.svg" width="32.4%" alt="JAPAN: long-term career goal and Japanese learning" /></a>
+  <a href="#about"><img src="./cards/grow.svg" width="32.4%" alt="GROW: building stronger backend engineering skills" /></a>
 </div>
 
 <a id="about"></a>
 
-**Hey, I'm Shreejit.** I'm a BCA (Honours) student from India, graduating in **2027**, learning **Python, backend engineering, RAG/LLMs, and cloud fundamentals**. I built [SHINPO](https://github.com/ronartz/SHINPO) with extensive AI-assisted coding, and I'm now focusing on understanding the code and becoming more independent as a developer. I'm also studying elementary Japanese.
+**Hey, I'm Shreejit.** I'm a BCA (Honours) student from India, graduating in **2027**, learning **Python, backend engineering, RAG/LLMs, and cloud fundamentals**. I built [SHINPO](https://github.com/ronartz/SHINPO) with extensive AI-assisted coding, and I'm now focusing on understanding the code and becoming more independent as a developer.
 
 <a id="projects"></a>
 
