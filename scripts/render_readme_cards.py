@@ -230,7 +230,7 @@ def render_hero(total):
     lines = PORTRAIT.splitlines()
     for i, line in enumerate(lines):
         attr = f'class="portrait" style="animation-delay:{0.34 + i * 0.034:.3f}s"' if not STATIC else ""
-        p.append(text(744, 65 + i * 6.5, line, 7.4, "#FFA66E", 400, "monospace", f'xml:space="preserve" {attr}'))
+        p.append(text(744, 65 + i * 5.9, line, 7.4, "#FFA66E", 400, "monospace", f'xml:space="preserve" {attr}'))
     p += [
         '<rect x="741" y="245" width="294" height="1" fill="#633B2F"/>',
         text(745, 259, f"{total:,} public-profile contributions / last year", 11, MUTED, 400, "monospace"),
@@ -378,6 +378,8 @@ def render_repo(title, category, info1, info2, accent, ordinal):
 def write(path, content):
     dest = CARDS / path
     dest.parent.mkdir(parents=True, exist_ok=True)
+    import xml.etree.ElementTree as ET
+    ET.fromstring(content)  # fail instead of publishing a broken SVG
     dest.write_text(content, encoding="utf-8")
     print("Rendered", dest.relative_to(ROOT), len(content), "bytes")
 
