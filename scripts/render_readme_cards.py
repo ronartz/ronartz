@@ -392,7 +392,7 @@ def main():
     write("activity.svg", render_activity(days))
     write("build.svg", render_tile("01", "BUILD", "Tools & real projects", "SHINPO, Skill Track, Java", ORANGE, "01 / WORK"))
     write("ai.svg", render_tile("02", "EXPLORE", "Python · AI · Cloud", "Building fundamentals, then RAG", FIRE, "02 / TECH"))
-    write("japan.svg", render_tile("03", "JAPAN", "Long-term career goal", "Learning Japanese step by step", GOLD, "03 / FUTURE"))
+    write("grow.svg", render_tile("03", "GROW", "Backend learning journey", "Python, APIs and Cloud", GOLD, "03 / FOCUS"))
     write("repo-shinpo.svg", render_repo("SHINPO (進歩)", "AI-assisted", "Local-first productivity desktop app", "React · TypeScript · Tauri", ORANGE, "01"))
     write("repo-skill-track.svg", render_repo("Skill Track", "Student project", "Progress and skills tracking", "College hackathon project", FIRE, "02"))
     write("repo-titanic.svg", render_repo("Titanic Survival", "Data science", "Introductory logistic regression", "Python · ML learning project", GOLD, "03"))
