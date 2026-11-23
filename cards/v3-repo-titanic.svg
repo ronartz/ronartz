@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="293.333" height="237" viewBox="0 0 293.333 237" role="img" aria-label="Titanic ML featured GitHub project"><title>Titanic ML featured GitHub project</title><style>
+@keyframes enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes pop{from{opacity:.1;transform:scale(.2)}to{opacity:1;transform:scale(1)}}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes glide{from{transform:translateX(-140px)}to{transform:translateX(320px)}}
+@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes blink{0%,50%{opacity:1}51%,100%{opacity:0}}
+.enter{animation:enter .7s cubic-bezier(.2,.75,.2,1) both}
+.fade{animation:fade .8s ease both}
+.pop{transform-box:fill-box;transform-origin:center;animation:pop .38s ease-out both}
+.grow{transform-box:fill-box;transform-origin:bottom;animation:grow .7s cubic-bezier(.2,.75,.2,1) both}
+.pulse{animation:pulse 2s ease-in-out infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 22s linear infinite}
+.blink{animation:blink .85s steps(1) infinite}
+.glint{animation:glide 6s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+</style><defs><linearGradient id="heat" x1="0" x2="1">
+<stop stop-color="#E54D37"/><stop offset=".62" stop-color="#FE784A"/>
+<stop offset="1" stop-color="#FFC299"/></linearGradient>
+<linearGradient id="sheen" x1="0" x2="1">
+<stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".25"/>
+<stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs><rect x="4.50" y="4.50" width="284.33" height="228.00" rx="14" fill="#0F1014" stroke="#34343B" stroke-width="1"/><text x="28.00" y="34.00" font-size="11" fill="#FE784A" font-family="Consolas,Menlo,monospace" font-weight="normal" >03 / DATA</text><text x="263.00" y="35.00" font-size="20" fill="#FE784A" font-family="Arial,Helvetica,sans-serif" font-weight="normal" text-anchor="end">↗</text><text x="28.00" y="74.00" font-size="23" fill="#F8F5F1" font-family="Arial,Helvetica,sans-serif" font-weight="bold" >Titanic ML</text><text x="28.00" y="100.00" font-size="12" fill="#ADABA9" font-family="Arial,Helvetica,sans-serif" font-weight="normal" >Logistic regression</text><text x="28.00" y="119.00" font-size="12" fill="#ADABA9" font-family="Arial,Helvetica,sans-serif" font-weight="normal" >Introductory data science</text><rect x="28.00" y="133.00" width="237.00" height="66.00" rx="7" fill="#1C1D23" stroke="#292A30"/><text x="42.00" y="153.00" font-size="11" fill="#FE784A" font-family="Consolas,Menlo,monospace" font-weight="normal" >&gt; model.fit(X, y)</text><text x="42.00" y="173.00" font-size="10" fill="#F8F5F1" font-family="Consolas,Menlo,monospace" font-weight="normal" >accuracy  /  evaluation</text><rect x="43.00" y="181.00" width="160.00" height="4.00" rx="2" fill="#34343B" /><rect x="43.00" y="181.00" width="99.00" height="4.00" rx="2" fill="#FE784A" /><text x="28.00" y="220.00" font-size="11" fill="#FFC299" font-family="Consolas,Menlo,monospace" font-weight="normal" >Python · ML</text></svg>

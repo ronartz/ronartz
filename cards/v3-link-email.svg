@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="293.333" height="80" viewBox="0 0 293.333 80" role="img" aria-label="EMAIL — Get in touch"><title>EMAIL — Get in touch</title><style>
+@keyframes enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes pop{from{opacity:.1;transform:scale(.2)}to{opacity:1;transform:scale(1)}}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes glide{from{transform:translateX(-140px)}to{transform:translateX(320px)}}
+@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes blink{0%,50%{opacity:1}51%,100%{opacity:0}}
+.enter{animation:enter .7s cubic-bezier(.2,.75,.2,1) both}
+.fade{animation:fade .8s ease both}
+.pop{transform-box:fill-box;transform-origin:center;animation:pop .38s ease-out both}
+.grow{transform-box:fill-box;transform-origin:bottom;animation:grow .7s cubic-bezier(.2,.75,.2,1) both}
+.pulse{animation:pulse 2s ease-in-out infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 22s linear infinite}
+.blink{animation:blink .85s steps(1) infinite}
+.glint{animation:glide 6s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+</style><defs><linearGradient id="heat" x1="0" x2="1">
+<stop stop-color="#E54D37"/><stop offset=".62" stop-color="#FE784A"/>
+<stop offset="1" stop-color="#FFC299"/></linearGradient>
+<linearGradient id="sheen" x1="0" x2="1">
+<stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".25"/>
+<stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs><rect x="4.50" y="4.50" width="284.33" height="71.00" rx="12" fill="#FE784A" stroke="#FE784A" stroke-width="1"/><text x="26.00" y="31.00" font-size="11" fill="#563323" font-family="Consolas,Menlo,monospace" font-weight="bold" >EMAIL</text><text x="27.00" y="56.00" font-size="14" fill="#18151A" font-family="Arial,Helvetica,sans-serif" font-weight="bold" >Get in touch</text><text x="263.00" y="55.00" font-size="19" fill="#18151A" font-family="Arial,Helvetica,sans-serif" font-weight="normal" text-anchor="end">↗</text></svg>
